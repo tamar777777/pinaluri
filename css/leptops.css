@@ -1,0 +1,35 @@
+@media screen and (max-width: 1180px) {
+    .header-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header-nav {
+        margin-bottom: 16px;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    .header-btn-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .collection-section {
+        height: 400px;
+    }
+
+    .products {
+        height: 500px;
+    }
+
+    .artworks-section {
+        padding: 60px 20px;
+    }
+
+    .artwork-cards-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
